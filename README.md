@@ -59,14 +59,15 @@ use following command to test the data:
 
 #TESTING AND RESULTS :
 I trained the model using only 110 images for 6000 iterations and Calculated the mean average precision(mAP) using darknet map command and found it to be 73.40 at the IoU threshold of 0.5 . I assumed that it would suffice. Backed the weights up to my google drive folder after every 1000 iterations.
-Average Intersection over union is 74.5 percent. More iterations would have helped this
+Average Intersection over union is 74.5 percent. More data would have helped this
+
+![](images/detected_image.png)
 
 
 #OBSERVATIONS:
 Using more data for training would have been useful for getting better mAP 
 Data Augmentation would have been very useful
 More Iterations would be better for getting more accuracy
-
 
 
 
